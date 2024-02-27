@@ -68,3 +68,18 @@ body{
     background-color: hsl(202, 90%, 30%);
 }
 
+@media screen and (max-width: 600px) {
+    #display {
+        font-size: 3rem;
+    }
+
+    #container {
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        min-width: 100px;
+    }
+}
